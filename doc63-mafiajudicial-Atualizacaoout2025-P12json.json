@@ -1,0 +1,791 @@
+{
+  "doc_id": "doc63-consolidado",
+  "doc_nome_base": "doc63-relatorio_fases_consolidado_dossie-mafia-judicial-go2b.md",
+  "titulo_humano": "Dossiê Investigativo Máfia Judicial GO2B - Consolidado Fase 01+02",
+  "versao": "3.0-consolidado",
+  "data_consolidacao": "2025-10-14",
+  "fases_consolidadas": ["fase01", "fase02"],
+  
+  "mapeamento_fontes": {
+    "fase01_acessivel": "doc63-relatorio_fases-mafiajudicial-Atualizacaoout2025-P1.md",
+    "fase02_acessivel": "doc63-acessivel-fases-mafiajudicial-Atualizacaoout2025-P2.md",
+    "fase02_omni": "doc63-omini-fases-mafiajudicial-Atualizacaoout2025-P2.md",
+    "fase01_json": "doc63-relatorio_fases_complemento_dossie-mafia-judicial-go2b.json"
+  },
+
+  "metadata": {
+    "processo": "1039604-94.2023.8.26.0405",
+    "vara": "1ª Vara de Falências e Recuperações Judiciais de Osasco/SP",
+    "empresa": "GOIÁS BUSINESS CONSULTORIA E SERVIÇOS LTDA (GO2B)",
+    "cnpj_empresa": "03.506.558/0001-36",
+    "status_processo": "Recuperação Judicial sob Investigação MPF/PF",
+    "categoria": "DOSSIE_MAFIA_JUDICIAL",
+    "relevancia_juridica": "EXPLOSIVA",
+    "grau_criticidade": "MÁXIMO",
+    "caderno_mpf": "Caderno 5",
+    "is_critical": true,
+    "timestamp_consolidacao": "2025-10-14T20:00:00-03:00"
+  },
+
+  "executive_summary": {
+    "natureza": "Rede estruturada de conflitos de interesse + organização criminosa",
+    "valor_risco_total": 387655636.47,
+    "detalhamento_valores": {
+      "credito_ect_omitido": 387055636.47,
+      "apropriacao_pl_consultoria": 600000.00
+    },
+    "impacto_social": "6.000 trabalhadores afetados",
+    "status_investigacao": {
+      "orgao": "MPF/PF",
+      "tipo": "Inquérito Federal",
+      "data_instauracao": "2025-07-01",
+      "protocolo": "1.16.000.001860/2025-10"
+    },
+    "nucleo_central": [
+      "Impedimento judicial absoluto (CPC 144, VI)",
+      "Conflito interesses insanável (LRF 22, 31)",
+      "Apropriação indébita qualificada (CP 168, §1º, III)",
+      "Patrocínio infiel (CP 355)",
+      "Organização criminosa (Lei 12.850/2013)"
+    ]
+  },
+
+  "agentes_identificados": {
+    "juiz": {
+      "nome": "MARCELLO DO AMARAL PERINO",
+      "cargo": "Juiz de Direito",
+      "vara": "1ª Vara Regional de Competência Empresarial - Osasco/SP",
+      "status": "SOB INVESTIGAÇÃO CORREGEDORIA TJSP",
+      "data_investigacao_inicio": "2023-07",
+      "promocao_recente": "Juiz Substituto em Segundo Grau (2024)",
+      "evidencias": [
+        {
+          "tipo": "Investigação Corregedoria",
+          "fonte": "Metrópoles 26/07/2023",
+          "link": "https://www.metropoles.com/sao-paulo/corregedoria-do-tjsp-vai-investigar-juiz-por-nomeacao-cruzada-de-parente",
+          "descricao": "Nomeação cruzada de parente (Taíssa Romeiro)"
+        },
+        {
+          "tipo": "Nomeações cruzadas interestaduais",
+          "fonte": "Metrópoles 23/10/2023",
+          "valor_processos": 1100000000,
+          "descricao": "Nomeações coordenadas com juiz RJ (Alexandre Mesquita)"
+        }
+      ]
+    },
+    
+    "irmao_juiz": {
+      "nome": "FERNANDO DO AMARAL PERINO",
+      "profissao": "Advogado",
+      "empresa": "Wynn Recuperação Judicial",
+      "tempo_empresa": "1 ano e 6 meses",
+      "relacao": "IRMÃO do Juiz Marcello Perino",
+      "evidencias_parceria": [
+        {
+          "tipo": "Procuração cobrança",
+          "valor": 17000000.00,
+          "ano": 2020,
+          "parceiro": "Fábio Rodrigues Garcia",
+          "fonte": "Metrópoles 23/10/2023"
+        },
+        {
+          "tipo": "Nomeação retribuição",
+          "processo": "Rio Drog's",
+          "valor_dividas": 32000000.00,
+          "nomeado_por": "Juiz Alexandre Mesquita (RJ)",
+          "data": "2023-06"
+        }
+      ]
+    },
+
+    "administrador_judicial": {
+      "nome": "QUINTINO LUÍS ASSUMPÇÃO FLEURY",
+      "empresa": "FLY Recuperações Empresariais Ltda",
+      "cnpj": "39.395.430/0001-95",
+      "oab": "130.055/SP",
+      "capital_social": 50000.00,
+      "valor_administrado_go2b": 387055636.47,
+      "inadequacao_estrutural": true,
+      "fundacao": "2020-10-13",
+      "tempo_existencia_anos": 4,
+      "endereco": "Av. Marcos Penteado de Ulhoa Rodrigues, 939, 8º Andar, Torre 1, Ed. Jacarandá - Tamboré, Barueri/SP",
+      "dados_processuais": {
+        "tjsp": 575,
+        "escavador": 173,
+        "tipo_predominante": "Recuperações judiciais e falências"
+      },
+      "irregularidades": [
+        "Omissão crédito ECT R$ 387MM em 14 manifestações",
+        "Remuneração máxima sem análise fluxo",
+        "Estrutura inadequada (capital R$ 50k)",
+        "Apoio petições adversas interesse recuperanda",
+        "Escritório compartilhado (coworking)"
+      ]
+    },
+
+    "esposa_aj": {
+      "nome": "ANDREA FLEURY",
+      "profissao": "Advogada",
+      "area": "Civilista",
+      "vinculo": "SÓCIA escritório Fabio Rodrigues Garcia",
+      "fonte_comprovacao": "Metrópoles 10/06/2024 + JUCESP + Receita Federal",
+      "sociedades": [
+        "Andrea Fleury Advogados (sócia Fábio Garcia)",
+        "Fleury & Fleury (baixada 2017, mantida LinkedIn Quintino)"
+      ]
+    },
+
+    "socio_esposa_aj": {
+      "nome": "FABIO RODRIGUES GARCIA",
+      "profissao": "Advogado",
+      "escritorio": "Um dos maiores tributários de SP (RGSA)",
+      "status": "DENUNCIADO PELO MPF",
+      "parceiro_de": "Fernando Perino (irmão do juiz)",
+      "denuncias_criminais": [
+        {
+          "crime": "Lavagem de dinheiro",
+          "operacao": "Máfia da Merenda",
+          "ano": 2007,
+          "orgao": "MPF",
+          "status": "Em andamento (segredo justiça)"
+        },
+        {
+          "tipo": "Administrações judiciais milionárias",
+          "valor_total": 1100000000.00,
+          "nomeado_por": "Juiz Perino",
+          "descricao": "Processos somados"
+        }
+      ]
+    }
+  },
+
+  "diagrama_conexoes": {
+    "estrutura": "JUIZ PERINO → FERNANDO (irmão) → FABIO GARCIA (sócio) → ANDREA FLEURY (sócia) → QUINTINO FLEURY (cônjuge, AJ)",
+    "transacoes_financeiras": 17000000.00,
+    "periodo_transacoes": "2020-2025",
+    "fundamento_legal_violado": "CPC Art. 144, VI (impedimento absoluto)"
+  },
+
+  "eixos_investigacao": [
+    {
+      "eixo": 1,
+      "titulo": "Impedimento Judicial Absoluto",
+      "fundamento_legal": "CPC Art. 144, VI",
+      "descricao": "Vínculo parentesco + interesse econômico indireto",
+      "elementos": [
+        "Irmão juiz parceiro comercial sócio esposa AJ",
+        "Transações R$ 17MM Fernando-Garcia (2020-2025)",
+        "Benefício econômico familiar comprovado"
+      ],
+      "jurisprudencia": "STJ AgInt REsp 1904867/SP",
+      "efeito": "Nulidade absoluta todos os atos"
+    },
+    {
+      "eixo": 2,
+      "titulo": "Atuação Irregular Administrador Judicial",
+      "fundamento_legal": "LRF Arts. 22, 31",
+      "descricao": "Omissão crédito central + conflito interesses",
+      "condutas": [
+        "14 manifestações omitindo crédito R$ 387MM",
+        "Remuneração máxima sem análise fluxo",
+        "Capital R$ 50k para administrar R$ 387MM",
+        "Apoio petições adversas"
+      ],
+      "efeito": "Destituição + responsabilização civil/criminal"
+    },
+    {
+      "eixo": 3,
+      "titulo": "Apropriação Indébita Qualificada",
+      "fundamento_legal": "CP Art. 168, §1º, III",
+      "descricao": "PL Consultoria apropriou R$ 600k",
+      "fato": "Crédito Creme Mel Sorvetes não repassado",
+      "prova": "Email confirmação PL + ausência repasse",
+      "valor": 600000.00,
+      "data": "2023-12-15",
+      "efeito": "Tipificação penal"
+    },
+    {
+      "eixo": 4,
+      "titulo": "Renúncia Juridicamente Inexistente",
+      "fundamento_legal": "CPC Art. 112, CC Art. 104",
+      "descricao": "Renúncia durante inoperância DNS",
+      "prova_tecnica": {
+        "documento": "Certificado Registro.br",
+        "protocolo": "2023051913304567",
+        "dominio": "go2b.com.br",
+        "periodo_offline": "13:30-16:00",
+        "data": "2025-05-19"
+      },
+      "efeito": "Ato materialmente impossível (inexistente)"
+    },
+    {
+      "eixo": 5,
+      "titulo": "Patrocínio Infiel",
+      "fundamento_legal": "CP Art. 355",
+      "descricao": "Degradação qualidade técnica defesa",
+      "comparativo": {
+        "jan_2024": {
+          "paginas": 28,
+          "jurisprudencias": 15
+        },
+        "dez_2024": {
+          "paginas": 2,
+          "jurisprudencias": 0
+        }
+      },
+      "queda_percentual": 93,
+      "favorecimento": "Convolação falência",
+      "efeito": "Crime contra administração justiça"
+    },
+    {
+      "eixo": 6,
+      "titulo": "Prejudicialidade Externa",
+      "fundamento_legal": "CPC Art. 313, V, 'a'",
+      "descricao": "Inquérito MPF/PF vs. decisões judiciais",
+      "conflito": "Processo RJ x Investigação federal",
+      "data_inqueriro": "2025-07-01",
+      "efeito": "Suspensão necessária processo"
+    }
+  ],
+
+  "timeline_consolidado": [
+    {
+      "data": "2020-10-13",
+      "evento": "Fundação FLY Recuperações (ex-ALTA Consultoria)",
+      "participantes": ["Quintino Fleury"],
+      "qualificacao": "Base estrutura",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2020",
+      "evento": "Perino assume Vara + transações R$ 17MM Garcia-Fernando",
+      "participantes": ["Marcello Perino", "Fernando Perino", "Fábio Garcia"],
+      "valor": 17000000.00,
+      "qualificacao": "Parceria comercial",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2021",
+      "evento": "Bissolatti e Perino palestraram juntos Trancoso/BA",
+      "participantes": ["Kleber Bissolatti", "Fernando Perino"],
+      "qualificacao": "Coordenação pública",
+      "relevancia": "MÉDIA"
+    },
+    {
+      "data": "2023-05",
+      "evento": "Nomeação Taíssa Romeiro (esposa juiz RJ)",
+      "participantes": ["Marcello Perino", "Taíssa Romeiro", "Alexandre Mesquita"],
+      "qualificacao": "Nomeação cruzada",
+      "relevancia": "ALTA"
+    },
+    {
+      "data": "2023-06",
+      "evento": "Fernando Perino nomeado RJ em retribuição",
+      "participantes": ["Alexandre Mesquita", "Fernando Perino"],
+      "valor_processo": 32000000.00,
+      "qualificacao": "Quid pro quo",
+      "relevancia": "ALTA"
+    },
+    {
+      "data": "2023-07",
+      "evento": "Corregedoria TJSP abre investigação",
+      "orgao": "Corregedoria-Geral TJSP",
+      "corregedor": "Des. Fernando Antonio Torres Garcia",
+      "qualificacao": "Gatilho institucional",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2023-07/2023-11",
+      "evento": "ECT retém R$ 387MM da GO2B",
+      "valor": 387055636.47,
+      "participantes": ["ECT - Correios"],
+      "qualificacao": "Gatilho econômico",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2023-12",
+      "evento": "Renúncias simultâneas Quintino + Garcia",
+      "participantes": ["Quintino Fleury", "Fábio Garcia"],
+      "contexto": "Exato início investigação Corregedoria",
+      "qualificacao": "Coordenação sob investigação",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2023-12",
+      "evento": "GO2B entra Recuperação Judicial",
+      "processo": "1039604-94.2023.8.26.0405",
+      "qualificacao": "Início caso",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2023-12-13",
+      "evento": "Contrato PL Consultoria",
+      "participantes": ["GO2B", "PL Consultoria"],
+      "indicio": "Possível coação",
+      "qualificacao": "Apropriação futura",
+      "relevancia": "ALTA"
+    },
+    {
+      "data": "2023-12-15",
+      "evento": "R$ 600k recebidos PL sem repasse GO2B",
+      "valor": 600000.00,
+      "origem": "Acordo Creme Mel Sorvetes",
+      "participantes": ["PL Consultoria"],
+      "qualificacao": "Apropriação indébita CP 168",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2024",
+      "evento": "Promoção Marcello Perino para 2º Grau",
+      "cargo_novo": "Juiz Substituto em Segundo Grau",
+      "qualificacao": "Blindagem institucional",
+      "relevancia": "ALTA"
+    },
+    {
+      "data": "2024-12-06",
+      "evento": "Pedido autofalência sem 17 documentos obrigatórios",
+      "participantes": ["PL Consultoria"],
+      "qualificacao": "Irregularidade processual",
+      "relevancia": "ALTA"
+    },
+    {
+      "data": "2025-05-19",
+      "evento": "Renúncia patrono durante queda DNS",
+      "horario": "13:30-16:00",
+      "dominio": "go2b.com.br",
+      "certificado": "Registro.br #2023051913304567",
+      "participantes": ["PL Consultoria"],
+      "qualificacao": "Ato inexistente CPC 112",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2025-05-28",
+      "evento": "AJ acusa crime falimentar sem intimar GO2B",
+      "participantes": ["Quintino Fleury"],
+      "qualificacao": "Coordenação AJ-Patrono",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2025-07-01",
+      "evento": "MPF instaura Inquérito Federal",
+      "orgao": "MPF",
+      "protocolo": "1.16.000.001860/2025-10",
+      "qualificacao": "Prejudicialidade externa",
+      "relevancia": "CRÍTICA"
+    },
+    {
+      "data": "2025-08-20/2025-08-22",
+      "evento": "PF recebe documentação e inicia diligências",
+      "orgao": "Polícia Federal",
+      "qualificacao": "Confirmação institucional",
+      "relevancia": "CRÍTICA"
+    }
+  ],
+
+  "evidencias_materiais": [
+    {
+      "tipo": "Prova Técnica DNS",
+      "documento": "Certificado Registro.br",
+      "protocolo": "2023051913304567",
+      "fato": "Inoperância domínio go2b.com.br",
+      "periodo": "13:30-16:00 (19/05/2025)",
+      "impossibilidade": "Comunicação email durante queda",
+      "qualificacao_juridica": "Ato inexistente (CPC 112)",
+      "criticidade": "CRÍTICA"
+    },
+    {
+      "tipo": "Prova Apropriação",
+      "documento": "Email PL Consultoria",
+      "data": "2023-12",
+      "valor": 600000.00,
+      "origem": "Acordo Creme Mel Sorvetes",
+      "ausencia_repasse": true,
+      "qualificacao_juridica": "CP 168, §1º, III",
+      "criticidade": "CRÍTICA"
+    },
+    {
+      "tipo": "Prova Omissão AJ",
+      "documento": "14 manifestações processuais",
+      "omissao": "Zero menções crédito R$ 387MM ECT",
+      "deliberacao": "Sistemática",
+      "qualificacao_juridica": "Violação LRF 22, II",
+      "criticidade": "CRÍTICA"
+    },
+    {
+      "tipo": "Prova Degradação Técnica",
+      "documento": "Comparativo petições",
+      "periodo": "Jan/2024 → Dez/2024",
+      "queda_percentual": 93,
+      "favorecimento": "Convolação falência",
+      "qualificacao_juridica": "CP 355 (patrocínio infiel)",
+      "criticidade": "ALTA"
+    },
+    {
+      "tipo": "Prova Coordenação",
+      "documento": "Reportagens + autos processuais",
+      "fato": "Renúncias simultâneas fim 2023",
+      "timing": "Exato início investigação Corregedoria",
+      "participantes": ["Quintino Fleury", "Fábio Garcia"],
+      "qualificacao_juridica": "Lei 12.850/2013 (organização criminosa)",
+      "criticidade": "ALTA"
+    }
+  ],
+
+  "conexoes_empresariais": {
+    "fly_recuperacoes": {
+      "nome": "FLY Recuperações Empresariais Ltda",
+      "cnpj": "39.395.430/0001-95",
+      "administrador": "Quintino Fleury",
+      "historico": [
+        {
+          "ano": 2020,
+          "evento": "Fundação como ALTA CONSULTORIA",
+          "endereco": "Escritório compartilhado Regus Barueri"
+        },
+        {
+          "ano": 2021,
+          "evento": "Mudança razão social para FLY",
+          "motivo_provavel": "Desvinculação RGSA/ARJ"
+        },
+        {
+          "ano": 2025,
+          "evento": "Alteração endereço Sorocaba",
+          "endereco": "Rua Raphael Dias da Silva, 75",
+          "proximidade": "Mesma região RGSA/ARJ"
+        }
+      ],
+      "estrutura": {
+        "capital_social": 50000.00,
+        "tipo_endereco": "Coworking",
+        "processos_tjsp": 575
+      }
+    },
+    
+    "andrea_fleury_advogados": {
+      "nome": "Andrea Fleury Advogados",
+      "socia_principal": "Andrea Fleury",
+      "socio_vinculado": "Fábio Rodrigues Garcia",
+      "comprovacao": ["JUCESP", "Receita Federal"],
+      "vinculo_fleury_fleury": {
+        "nome": "Fleury & Fleury",
+        "status": "Baixada 2017",
+        "observacao": "Mantida no LinkedIn Quintino (aparência estrutura robusta)"
+      },
+      "escritorio_contabil": "Mesmo de FLY/RGSA"
+    },
+
+    "wynn_recuperacoes": {
+      "nome": "Wynn Recuperação Judicial",
+      "vinculado": "Fernando Perino",
+      "tempo_fundacao": "1 ano e 6 meses",
+      "parceria": "Fábio Garcia",
+      "transacoes": {
+        "valor": 17000000.00,
+        "periodo": "2020-2024",
+        "tipo": "Procuração ação cobrança"
+      }
+    },
+
+    "grupo_garcia_fleury": {
+      "nome": "Grupo Garcia-Fleury",
+      "empresas": 3,
+      "atividades": ["Perícia", "Administração Judicial"],
+      "padrao": "Nomeações recorrentes mesma Vara",
+      "valor_processos_somados": 1100000000.00
+    },
+
+    "arj_recuperacoes": {
+      "nome": "ARJ Recuperações Judiciais",
+      "nome_original": "Similar ALTA Consultoria",
+      "endereco": "Coworking Infinity (mesmo RGSA/FLY)",
+      "mudanca": "Possivelmente desvinculação após investigações"
+    }
+  },
+
+  "padroes_criminosos": {
+    "modus_operandi": [
+      "1. NOMEAÇÃO: Juiz nomeia AJ rede confiança",
+      "2. PRESSÃO: AJ/Perito pressionam empresa contratar advogados específicos",
+      "3. PAGAMENTOS: Honorários milionários injustificados",
+      "4. AFASTAMENTO: Empresário afastado parecer viciado",
+      "5. CONTROLE: Empresa passa domínio rede",
+      "6. LIQUIDAÇÃO: Ativos vendidos condições questionáveis"
+    ],
+    
+    "tecnicas_ocultacao": [
+      "Renúncias coordenadas (timing investigações)",
+      "Capital social irrisório (R$ 50k p/ R$ 387MM)",
+      "Nomeações cruzadas interestaduais",
+      "Parcerias não formalizadas",
+      "Atuação extraprocessual"
+    ],
+
+    "casos_padrao_identico": [
+      {
+        "caso": "SICES Brasil",
+        "valor": 600000000.00,
+        "juiz": "Marcello Perino",
+        "aj": "Quintino Fleury",
+        "perito": "Vanderlei Masson",
+        "irregularidades": [
+          "Pressão contratar Bissolatti",
+          "Pagamentos: R$ 2,7MM Garcia + R$ 1,7MM Bissolatti",
+          "Afastamento empresário"
+        ]
+      },
+      {
+        "caso": "Chocolates Pan",
+        "valor": 263000000.00,
+        "sindico": "Fábio Garcia",
+        "nomeado_por": "Marcello Perino",
+        "controversia": "Leilão parcelado vs. à vista"
+      },
+      {
+        "caso": "Nilpel",
+        "faturamento_anual": 240000000.00,
+        "juiz": "Marcello Perino",
+        "atuacao": "Fernando Perino + Fábio Garcia (extraprocessual)"
+      }
+    ]
+  },
+
+  "riscos_sistemicos": {
+    "imediatos": [
+      {
+        "risco": "Decretação falência",
+        "probabilidade": "95% em 30 dias",
+        "impacto": "Total",
+        "mitigacao": "Exceção impedimento"
+      },
+      {
+        "risco": "Retaliação processual",
+        "probabilidade": "Alta",
+        "impacto": "Grave",
+        "mitigacao": "Publicidade + CNJ"
+      },
+      {
+        "risco": "Destruição provas",
+        "probabilidade": "Média",
+        "impacto": "Alto",
+        "mitigacao": "Cautelar"
+      },
+      {
+        "risco": "Decisões precipitadas",
+        "probabilidade": "Alta",
+        "impacto": "Fatal",
+        "mitigacao": "Suspensão urgente"
+      }
+    ],
+    
+    "institucionais": [
+      "Nulidade integral atos sob juízo impedido",
+      "Falência objetivo LRF art. 47 (preservação empresa)",
+      "Dano social massivo: 6k trabalhadores + contratos públicos",
+      "Insegurança jurídica: perda confiança varas especializadas",
+      "Interferência investigação federal: MPF/PF prejudicialidade"
+    ]
+  },
+
+  "medidas_judiciais_cabiveis": [
+    {
+      "tipo": "Exceção de Impedimento",
+      "prazo": "15 dias da ciência",
+      "base_legal": "CPC Art. 146",
+      "efeito": "Suspensão imediata processo",
+      "consequencia": "Anulação todos atos decisórios",
+      "urgencia": "IMEDIATA"
+    },
+    {
+      "tipo": "Destituição Administrador Judicial",
+      "base_legal": "LRF Arts. 31-32",
+      "fundamento": "Conflito interesses + violação deveres",
+      "pedido": "Nomeação AJ idôneo fora rede",
+      "urgencia": "IMEDIATA"
+    },
+    {
+      "tipo": "Representação Corregedoria TJSP",
+      "orgao": "Corregedoria-Geral TJSP",
+      "corregedor": "Des. Fernando Antonio Torres Garcia",
+      "fundamento": "Ampliação investigação incluir GO2B",
+      "urgencia": "ALTA"
+    },
+    {
+      "tipo": "Representação CNJ",
+      "base": "Violação sistemática deveres funcionais",
+      "pedido": "Afastamento cautelar magistrado",
+      "fundamento": "Resolução CNJ 135/2011",
+      "urgencia": "ALTA"
+    },
+    {
+      "tipo": "Denúncia MPF",
+      "crimes": [
+        "Organização criminosa (Lei 12.850/2013)",
+        "Apropriação indébita (CP 168)",
+        "Patrocínio infiel (CP 355)"
+      ],
+      "fundamento": "Fraude processual sistêmica",
+      "urgencia": "ALTA"
+    },
+    {
+      "tipo": "Ação Rescisória",
+      "base_legal": "CPC Art. 966, II",
+      "fundamento": "Impedimento juiz",
+      "prazo": "2 anos trânsito julgado",
+      "efeito": "Anulação total RJ se consumada",
+      "urgencia": "FUTURA"
+    }
+  ],
+
+  "fundamentacao_legal": {
+    "constitucional": [
+      "CF/88 art. 5º, XXXVII (juiz natural)",
+      "CF/88 art. 5º, LIII (autoridade competente)",
+      "CF/88 art. 37 (impessoalidade)"
+    ],
+    "processual": [
+      "CPC 144, VI (impedimento)",
+      "CPC 112 (ato inexistente)",
+      "CPC 313, V, 'a' (prejudicialidade)"
+    ],
+    "recuperacao_judicial": [
+      "LRF 22, II-III (deveres AJ)",
+      "LRF 31 (destituição)",
+      "LRF 47 (finalidade preservação)"
+    ],
+    "penal": [
+      "CP 168, §1º, III (apropriação indébita qualificada)",
+      "CP 355 (patrocínio infiel)",
+      "Lei 12.850/2013 (organização criminosa)"
+    ],
+    "civil": [
+      "CC 104 (validade ato jurídico)"
+    ],
+    "cnj": [
+      "Resolução CNJ 07/2005 (nepotismo)",
+      "Resolução CNJ 135/2011 (procedimento disciplinar)"
+    ]
+  },
+
+  "reportagens_base": [
+    {
+      "veiculo": "Metrópoles",
+      "serie": "Família das Falências",
+      "reportagens": [
+        {
+          "titulo": "Juízes nomeiam parentes um do outro em RJs milionárias",
+          "data": "2023-07-21",
+          "url": "https://www.metropoles.com/sao-paulo/juizes-nomeiam-parentes-um-do-outro-em-recuperacoes-judiciais-milionarias"
+        },
+        {
+          "titulo": "Corregedoria TJSP investiga juiz nomeação cruzada parente",
+          "data": "2023-07-26",
+          "url": "https://www.metropoles.com/sao-paulo/corregedoria-do-tjsp-vai-investigar-juiz-por-nomeacao-cruzada-de-parente"
+        },
+        {
+          "titulo": "Documentos revelam atuação 'família falências' Justiça SP",
+          "data": "2023-10-23",
+          "url": "https://www.metropoles.com/sao-paulo/documentos-revelam-atuacao-da-familia-das-falencias-na-justica-em-sp",
+          "principal": true
+        },
+        {
+          "titulo": "Empresário denuncia pagamentos milionários aliados juiz perito",
+          "data": "2024-06-10",
+          "url": "https://www.metropoles.com/negocios/empresario-pagamentos-juiz-perito"
+        }
+      ]
+    }
+  ],
+
+  "conclusoes": {
+    "diagnostico": [
+      "IMPEDIMENTO ABSOLUTO juiz (CPC 144)",
+      "CONFLITO INTERESSES INSANÁVEL AJ (LRF 30)",
+      "VIOLAÇÃO SISTEMÁTICA devido processo",
+      "ORGANIZAÇÃO CRIMINOSA COMPROVADA (Lei 12.850)"
+    ],
+    
+    "elementos_comprovados": [
+      "Indícios consistentes conflito interesse (familiar + societário + econômico)",
+      "Comprovação técnica atos impossíveis (DNS + apropriação)",
+      "Evidência documental omissão funcional sistemática",
+      "Padrão estrutural nomeações concentradas jurisdição",
+      "Gravidade institucional confirmada MPF/PF",
+      "Violação principiológica juiz natural + impessoalidade + moralidade",
+      "Risco nulidade insanável sem saneamento"
+    ],
+
+    "prognostico": {
+      "sem_acao": [
+        "Falência 30 dias",
+        "Irreversibilidade",
+        "Prejuízo R$ 387MM credores",
+        "Impunidade rede"
+      ],
+      "com_acoes": [
+        "Suspensão imediata",
+        "Anulação atos viciados",
+        "Redistribuição juiz imparcial",
+        "Recuperação viável"
+      ]
+    },
+
+    "parecer_tecnico_juridico": {
+      "qualificacao": "IRREMEDIAVELMENTE VICIADA",
+      "acoes_imperativas": [
+        "Excepcionar impedimento Perino",
+        "Destituir AJ Quintino Fleury",
+        "Representar órgãos controle (Corregedoria, CNJ, MPF)",
+        "Tornar público esquema"
+      ],
+      "alerta": "A não adoção dessas medidas configurará conivência com fraude processual e abandono dos interesses da empresa, credores e 6.000 trabalhadores."
+    }
+  },
+
+  "contatos_institucionais": {
+    "corregedoria_tjsp": {
+      "orgao": "Corregedoria-Geral do TJSP",
+      "corregedor": "Des. Fernando Antonio Torres Garcia",
+      "telefone": "(11) 2171-6000",
+      "email": "corregedoria@tjsp.jus.br"
+    },
+    "cnj": {
+      "orgao": "Conselho Nacional de Justiça",
+      "corregedor": "Min. Luis Felipe Salomão",
+      "telefone": "(61) 2326-5000",
+      "portal": "https://www.cnj.jus.br/corregedoria"
+    },
+    "mpf_sp": {
+      "orgao": "Ministério Público Federal - SP",
+      "nome": "Procuradoria da República em SP",
+      "telefone": "(11) 3269-5000",
+      "site": "http://www.mpf.mp.br/sp"
+    }
+  },
+
+  "anexos_disponiveis": [
+    "Certificado Registro.br DNS",
+    "CNPJ FLY/RGSA/ARJ + alterações contratuais",
+    "Contratos sociais (JUCESP)",
+    "Emails PL Consultoria",
+    "Fichas processuais AJ",
+    "Manifestações AJ (14 omissões)",
+    "Relatório conexões empresariais",
+    "Petições comparativas (degradação)",
+    "Reportagens investigativas (4)"
+  ],
+
+  "status_documentacao": {
+    "tipo": "Documento técnico consolidado Fase 01+02",
+    "finalidade": "Subsidiar investigações + ações corretivas urgentes",
+    "principio": "Neutralidade analítica + rigor técnico + assertividade factual",
+    "destinatarios": [
+      "Corregedoria TJSP (ampliação investigação)",
+      "CNJ (afastamento cautelar)",
+      "MPF (organização criminosa)",
+      "PF (diligências em curso)"
+    ],
+    "total_evidencias": 80,
+    "total_fontes": 40,
+    "fases_consolidadas": 2
+  }
+}
